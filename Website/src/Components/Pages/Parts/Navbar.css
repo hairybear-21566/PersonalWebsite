@@ -1,0 +1,34 @@
+#grid-2 {
+  width: 100%;
+
+    display: grid;
+  justify-content: center;
+  justify-content: center;
+  justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    padding: 1rem;
+    margin: auto;
+    background: gray;
+  }
+  
+  .cell {
+
+ 
+    border-radius: 5%;
+    background: gold;
+  }
+
+NavContainer {
+  width: 100%;
+}
+
+#grid-2 div {
+  background-color: red;
+  aspect-ratio: 1;
+}
+
+div{
+  width: 100%;
+  height: 100%;
+}
